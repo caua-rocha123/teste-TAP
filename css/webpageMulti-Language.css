@@ -1,7 +1,7 @@
 /* Reset */
 body {
     font-family: 'Didact Gothic', sans-serif;
-    color:#333;
+    color:#3a1010;
 }
 
 * {
@@ -26,7 +26,7 @@ li {
 
 /* Header */
 .header {
-    background-color: #252525;
+    background-color: #3a1010;
     padding: 20px 0;
 }
 
@@ -183,6 +183,7 @@ a.es:before {
 .section {
     text-align: center;
     padding: 60px 0;
+    background-color: #bdb7b9;
 }
 
 .section h1 {
@@ -208,8 +209,8 @@ a.es:before {
 
 /* Sobre */
 .about {
-    background-color: #252525;
-    padding: 64px 0;
+    background-color: #3a1010;
+    padding: 90px 0;
 }
 
 .about-container {
@@ -218,7 +219,10 @@ a.es:before {
 }
 
 .about-container ul li {
-    padding: 10px;
+
+    list-style: none;
+    padding: 20px;
+
 }
 
 .about-container ul li a {
@@ -247,8 +251,10 @@ a.es:before {
 
 /* Footer */
 footer {
-    padding: 16px 0;
-    background-color: #000;
+
+    padding: 25px;
+    background-color: #130d0d;
+
     text-align: center;
     width: 100%;
 }
@@ -312,9 +318,11 @@ footer {
 }
 
 footer span {
-    color: #8b8b8b;
-    font-style: italic;
-}
+
+    color: #bba7a7;
+    font-style:oblique;
+
+
 
 @media (max-width: 380px) {    
     .btn{
@@ -327,4 +335,5 @@ footer span {
         line-height: 30px;
         font-size: 1.2em;
     }
+
 }
